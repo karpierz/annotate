@@ -169,7 +169,7 @@ Installation
 
 ::
 
-    $ pip install --upgrade annotate
+    $ python -m pip install --upgrade annotate
 
 Prerequisites:
 
