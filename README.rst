@@ -186,9 +186,11 @@ Prerequisites:
 License
 =======
 
-  | zlib/libpng License
+  | Copyright (c) 2016-2017, Adam Karpierz
+  |
+  | Licensed under the zlib/libpng License
   | http://opensource.org/licenses/zlib
-  | Please refer to the bundled LICENSE file.
+  | Please refer to the LICENSE file.
 
 Authors
 =======
