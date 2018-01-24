@@ -1,6 +1,16 @@
 Changelog
 =========
 
+1.0.1 (2018-01-24)
+------------------
+  - Update required Sphinx version.
+  - Update doc Sphinx configuration files.
+
+1.0.0 (2017-11-18)
+------------------
+  - Setup improvements.
+  - Other minor improvements.
+
 0.7.4 (2017-01-05)
 ------------------
   - Minor setup improvements.
@@ -33,8 +43,8 @@ Changelog
 0.5.1 (2015-02-27)
 ------------------
   - | Remove 'returns' as keyword argument for declare return type.
-    | For now, the type of returned value should be declared by the first
-    | positional argument.
+    | For now, the type of returned value should be declared by the
+    | first positional argument.
 
 0.3.3 (2014-09-15)
 ------------------

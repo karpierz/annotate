@@ -1,4 +1,9 @@
-# coding: utf-8
+# Copyright (c) 2012-2018 Adam Karpierz
+# Licensed under the zlib/libpng License
+# http://opensource.org/licenses/zlib
+
+__all__ = ('annotate',)
+
 
 def annotate(*args, **kargs):
 
@@ -12,5 +17,3 @@ def annotate(*args, **kargs):
         return func
 
     return decorate
-
-# eof
