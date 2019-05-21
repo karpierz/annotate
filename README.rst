@@ -169,15 +169,15 @@ Installation
 
 Prerequisites:
 
-+ Python 2.7 or higher
++ Python 2.7 or Python 3.4 or later
 
   * http://www.python.org/
-  * 2.7 and 3.4 are primary test environments.
+  * 2.7 and 3.7 are primary test environments.
 
 + pip and setuptools
 
-  * http://pypi.python.org/pypi/pip
-  * http://pypi.python.org/pypi/setuptools
+  * http://pypi.org/project/pip/
+  * http://pypi.org/project/setuptools/
 
 To install run::
 
@@ -207,13 +207,15 @@ Prerequisites:
 License
 =======
 
-  | Copyright (c) 2012-2018 Adam Karpierz
+  | Copyright (c) 2012-2019 Adam Karpierz
   |
   | Licensed under the zlib/libpng License
-  | http://opensource.org/licenses/zlib
+  | http://opensource.org/licenses/zlib/
   | Please refer to the accompanying LICENSE file.
 
 Authors
 =======
 
 * Adam Karpierz <adam@karpierz.net>
+
+.. _`development page`: https://github.com/karpierz/annotate/

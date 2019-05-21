@@ -1,6 +1,6 @@
-# Copyright (c) 2012-2018 Adam Karpierz
+# Copyright (c) 2012-2019 Adam Karpierz
 # Licensed under the zlib/libpng License
-# http://opensource.org/licenses/zlib
+# http://opensource.org/licenses/zlib/
 
 from __future__ import absolute_import
 
@@ -8,7 +8,7 @@ from os import path
 from setuptools import setup
 
 top_dir = path.dirname(path.abspath(__file__))
-with open(path.join(top_dir, "annotate", "__about__.py")) as f:
+with open(path.join(top_dir, "src", "annotate", "__about__.py")) as f:
     class about: exec(f.read(), None)
 
 setup(
