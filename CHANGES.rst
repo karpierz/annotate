@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.10 (2020-09-17)
+1.0.11 (2020-09-17)
 -------------------
 - Setup general update and cleanup.
 
