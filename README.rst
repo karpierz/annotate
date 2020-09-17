@@ -3,21 +3,18 @@ annotate
 
 Function annotations for Python2.
 
-Features
+Overview
 ========
 
 **@annotate**
 
 | Decorator to set a function's __annotations__ like Py3.
-| http://www.python.org/dev/peps/pep-3107/
+| https://www.python.org/dev/peps/pep-3107/
 
-Overview
-========
-
-TODO...
+`PyPI record`_.
 
 Examples
-========
+--------
 
 .. code:: python
 
@@ -169,48 +166,60 @@ Installation
 
 Prerequisites:
 
-+ Python 2.7 or Python 3.4 or later
++ Python 2.7 or Python 3.5 or higher
 
-  * http://www.python.org/
+  * https://www.python.org/
   * 2.7 and 3.7 are primary test environments.
 
 + pip and setuptools
 
-  * http://pypi.org/project/pip/
-  * http://pypi.org/project/setuptools/
+  * https://pypi.org/project/pip/
+  * https://pypi.org/project/setuptools/
 
-To install run::
+To install run:
 
-    python -m pip install --upgrade annotate
+.. parsed-literal::
+
+    python -m pip install --upgrade |package|
 
 Development
 ===========
-
-Visit `development page <https://github.com/karpierz/annotate>`__
-
-Installation from sources:
-
-Clone the `sources <https://github.com/karpierz/annotate>`__ and run::
-
-    python -m pip install ./annotate
-
-or on development mode::
-
-    python -m pip install --editable ./annotate
 
 Prerequisites:
 
 + Development is strictly based on *tox*. To install it run::
 
-    python -m pip install tox
+    python -m pip install --upgrade tox
+
+Visit `development page`_.
+
+Installation from sources:
+
+clone the sources:
+
+.. parsed-literal::
+
+    git clone |respository| |package|
+
+and run:
+
+.. parsed-literal::
+
+    python -m pip install ./|package|
+
+or on development mode:
+
+.. parsed-literal::
+
+    python -m pip install --editable ./|package|
 
 License
 =======
 
-  | Copyright (c) 2012-2019 Adam Karpierz
+  | Copyright (c) 2012-2020 Adam Karpierz
   |
   | Licensed under the zlib/libpng License
-  | http://opensource.org/licenses/zlib/
+  | https://opensource.org/licenses/Zlib
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -218,4 +227,8 @@ Authors
 
 * Adam Karpierz <adam@karpierz.net>
 
-.. _`development page`: https://github.com/karpierz/annotate/
+.. |package| replace:: annotate
+.. |package_bold| replace:: **annotate**
+.. |respository| replace:: https://github.com/karpierz/annotate.git
+.. _PyPI record: https://pypi.org/project/annotate/
+.. _development page: https://github.com/karpierz/annotate/

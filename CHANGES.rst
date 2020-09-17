@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.9 (2020-09-17)
+------------------
+- Setup general update and cleanup.
+
 1.0.8 (2019-05-21)
 ------------------
 - Update required setuptools version.

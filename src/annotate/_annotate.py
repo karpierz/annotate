@@ -1,12 +1,11 @@
-# Copyright (c) 2012-2019 Adam Karpierz
+# Copyright (c) 2012-2020 Adam Karpierz
 # Licensed under the zlib/libpng License
-# http://opensource.org/licenses/zlib/
+# https://opensource.org/licenses/Zlib
 
 __all__ = ('annotate',)
 
 
 def annotate(*args, **kargs):
-
     """Decorator to set a function's __annotations__ like Py3"""
 
     def decorate(func):
