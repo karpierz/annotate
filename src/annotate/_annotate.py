@@ -6,7 +6,7 @@ __all__ = ('annotate',)
 
 
 def annotate(*args, **kargs):
-    """Decorator to set a function's __annotations__ like Py3"""
+    """Decorator to set a function's __annotations__ like Py3."""
 
     def decorate(func):
         if not getattr(func, "__annotations__", None):
