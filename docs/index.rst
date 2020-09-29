@@ -6,7 +6,10 @@ annotate documentation
 Changes
 =======
 
-.. toctree:: CHANGES.rst
+.. toctree::
+   :maxdepth: 2
+
+   CHANGES.rst
 
 Indices and tables
 ==================
