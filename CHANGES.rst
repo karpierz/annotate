@@ -1,13 +1,11 @@
 Changelog
 =========
 
-1.0.13 (2020-09-29)
+1.0.14 (2020-10-17)
 -------------------
 - Setup: fix an improper dependencies versions.
-
-1.0.11 (2020-09-17)
--------------------
 - Setup general update and cleanup.
+- Fixed docs setup.
 
 1.0.8 (2019-05-21)
 ------------------

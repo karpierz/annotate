@@ -30,7 +30,6 @@ Examples
 
 
   class JArray(JObjectBase):
-
       """Java Array"""
 
       @classmethod
