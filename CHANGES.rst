@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.14 (2020-10-17)
+1.0.15 (2020-10-18)
 -------------------
 - Setup: fix an improper dependencies versions.
 - Setup general update and cleanup.
