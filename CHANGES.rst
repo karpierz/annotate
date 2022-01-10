@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.16 (2022-01-10)
+-------------------
+- Drop support for Python 2, 3.5 and 3.6.
+- Copyright year update.
+- Setup update.
+
 1.0.15 (2020-10-18)
 -------------------
 - Setup: fix an improper dependencies versions.
