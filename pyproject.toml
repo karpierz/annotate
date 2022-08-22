@@ -8,7 +8,7 @@ requires = ['setuptools>=63.2.0', 'wheel>=0.37.1', 'packaging>=21.3.0', 'tox>=3.
 
 [project]
 name        = 'annotate'
-version     = '1.0.17'
+version     = '1.0.18'
 description = '''Decorator to set a function's __annotations__ like Py3.'''
 license = { text = 'zlib/libpng License ; https://opensource.org/licenses/Zlib' }
 authors = [
@@ -43,10 +43,7 @@ requires-python = '>=3.7.0,<4.0.0'
 dependencies = [
     # mandatory
     'setuptools>=63.2.0',
-    'packaging>=21.3.0',
-    'importlib-resources>=5.7.1',
-    'importlib-metadata>=4.12.0',
-    'pkg_about>=1.0.6',
+    'pkg_about>=1.0.7',
     # others
 ]
 dynamic = ['readme']
@@ -140,7 +137,7 @@ ignore = ['E126','E203','E221','E251','E302','E701','E702','E731',
           'E122','E127','E128','E222','E272','E241','E266','E226','E704',
           'D100','D101','D102','D103','D104','D400','D401','D202',
           'N806','N802','N803','N801',
-          'I100']
+          'I100','W503']
 # (e.g. 'E4','W') default: 'E121','E123','126','226','E24','704'
 #select =
 #select = ['E','W','F','N','I']
