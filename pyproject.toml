@@ -99,7 +99,7 @@ annotate = [
 
 [tool.setuptools.exclude-package-data]
 '*' = ['*.c','*.h','*.cpp','*.hpp','*.cxx','*.hxx','*.pyx','*.pxd']
-renumerate = [
+annotate = [
 ]
 
 [tool.coverage.run]
