@@ -167,10 +167,9 @@ Installation
 
 Prerequisites:
 
-+ Python 3.7 or higher
++ Python 3.8 or higher
 
   * https://www.python.org/
-  * 3.7 is a primary test environment.
 
 + pip and setuptools
 
@@ -192,7 +191,7 @@ Prerequisites:
 
     python -m pip install --upgrade tox
 
-Visit `development page`_.
+Visit `Development page`_.
 
 Installation from sources:
 
@@ -217,9 +216,9 @@ or on development mode:
 License
 =======
 
-  | Copyright (c) 2012-2022 Adam Karpierz
+  | Copyright (c) 2012-2024 Adam Karpierz
   | Licensed under the zlib/libpng License
-  | https://opensource.org/licenses/Zlib
+  | https://opensource.org/license/zlib
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -230,6 +229,6 @@ Authors
 .. |package| replace:: annotate
 .. |package_bold| replace:: **annotate**
 .. |respository| replace:: https://github.com/karpierz/annotate.git
-.. _development page: https://github.com/karpierz/annotate
+.. _Development page: https://github.com/karpierz/annotate
 .. _PyPI record: https://pypi.org/project/annotate/
 .. _Documentation: https://annotate.readthedocs.io/

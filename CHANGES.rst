@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.20 (2024-08-13)
+-------------------
+- Add support for Python 3.12 and 3.13
+- Drop support for Python 3.7
+- Setup (dependencies) update.
+
 1.0.19 (2022-10-18)
 -------------------
 - Tox configuration has been moved to pyproject.toml
@@ -16,7 +22,7 @@ Changelog
 
 1.0.16 (2022-01-10)
 -------------------
-- Drop support for Python 2, 3.5 and 3.6.
+- Drop support for Python 2, 3.5 and 3.6
 - Copyright year update.
 - Setup update.
 
