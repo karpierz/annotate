@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1.0 (2024-09-30)
+------------------
+- Drop support for Python 3.8
+- Setup (dependencies) update.
+
 1.0.20 (2024-08-13)
 -------------------
 - Add support for Python 3.12 and 3.13
