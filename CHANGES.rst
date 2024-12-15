@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.1.3 (2024-12-13)
+------------------
+- Source distribution (\*.tar.gz now) is compliant with PEP-0625.
+- 100% code linting.
+- Tox configuration is now in native (toml) format.
+- Setup (dependencies) update.
+
 1.1.2 (2024-10-30)
 ------------------
 - Setup (dependencies) update.
