@@ -228,7 +228,7 @@ Authors
 
 .. |package| replace:: annotate
 .. |package_bold| replace:: **annotate**
-.. |copyright| replace:: Copyright (c) 2012-2024 Adam Karpierz
+.. |copyright| replace:: Copyright (c) 2012-2025 Adam Karpierz
 .. |respository| replace:: https://github.com/karpierz/annotate.git
 .. _Development page: https://github.com/karpierz/annotate
 .. _PyPI record: https://pypi.org/project/annotate/
