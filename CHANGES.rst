@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.2.3 (2025-06-11)
+------------------
+- Setup (dependencies) update.
+
 1.2.2 (2025-05-15)
 ------------------
 - The distribution is now created using 'build' instead of 'setuptools'.
