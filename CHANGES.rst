@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.0.0 (2025-09-08)
+------------------
+- Mark the package as typed.
+- 100% code coverage.
+- Setup (dependencies) update.
+
 1.3.0 (2025-09-01)
 ------------------
 - Making the package typed.
