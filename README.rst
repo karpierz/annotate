@@ -23,9 +23,9 @@ Examples
   from typing   import Optional, Tuple, Union, Sequence
   from annotate import annotate
 
-  from .lib import cached
-  from .    import jni
+  import jni
 
+  from .lib         import cached
   from .jobjectbase import JObjectBase
   from .jclass      import JClass
   from .jobject     import JObject
@@ -226,10 +226,21 @@ Authors
 
 * Adam Karpierz <adam@karpierz.net>
 
+Sponsoring
+==========
+
+| If you would like to sponsor the development of this project, your contribution
+  is greatly appreciated.
+| As I am now retired, any support helps me dedicate more time to maintaining and
+  improving this work.
+
+`Donate`_
+
 .. |package| replace:: annotate
 .. |package_bold| replace:: **annotate**
-.. |copyright| replace:: Copyright (c) 2012-2025 Adam Karpierz
-.. |respository| replace:: https://github.com/karpierz/annotate.git
+.. |copyright| replace:: Copyright (c) 2012-2026 Adam Karpierz
+.. |respository| replace:: https://github.com/karpierz/annotate
 .. _Development page: https://github.com/karpierz/annotate
 .. _PyPI record: https://pypi.org/project/annotate/
-.. _Documentation: https://annotate.readthedocs.io/
+.. _Documentation: https://karpierz.github.io/annotate/
+.. _Donate: https://www.paypal.com/donate/?hosted_button_id=FX8L7CJUGLW7S
