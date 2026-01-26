@@ -1,74 +1,84 @@
 Changelog
 =========
 
+2.1.1 (2026-01-26)
+------------------
+- Marked the package as typed.
+- 100% code coverage.
+- Copyright year update.
+- Switched from tox to Nox for project automation.
+- The documentation has been moved from Read the Docs to GitHub Pages.
+- Added the nox's 'cleanup' test environment.
+- Setup update (mainly dependencies) and bug fixes.
+
 1.3.0 (2025-09-01)
 ------------------
-- Making the package typed.
-- Setup (dependencies) update.
+- Made the package typed.
+- Setup update (mainly dependencies).
 
 1.2.4 (2025-07-07)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.3 (2025-06-11)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.2 (2025-05-15)
 ------------------
-- The distribution is now created using 'build' instead of 'setuptools'.
-- Setup (dependencies) update (due to regressions in tox and setuptools).
+- The distribution is now built using 'build' instead of 'setuptools'.
+- Setup update (mainly dependencies) (due to regressions in tox and setuptools).
 
 1.2.1 (2025-05-04)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.0 (2025-04-28)
 ------------------
-- Add support for Python 3.14
-- Drop support for Python 3.9 (due to compatibility issues).
-- Update readthedocs's python to version 3.13
-- Update tox's base_python to version 3.13
-- Setup (dependencies) update.
+- Added support for Python 3.14
+- Dropped support for Python 3.9 (due to compatibility issues).
+- Updated Read the Docs' Python version to 3.13
+- Updated tox's base_python to version 3.13
+- Setup update (mainly dependencies).
 
 1.1.5 (2025-02-14)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.1.4 (2025-01-25)
 ------------------
 - Copyright year update.
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.1.3 (2024-12-13)
 ------------------
 - Source distribution (\*.tar.gz now) is compliant with PEP-0625.
 - 100% code linting.
 - Tox configuration is now in native (toml) format.
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.1.2 (2024-10-30)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.1.1 (2024-10-09)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.1.0 (2024-09-30)
 ------------------
-- Drop support for Python 3.8
-- Setup (dependencies) update.
+- Dropped support for Python 3.8
+- Setup update (mainly dependencies).
 
 1.0.20 (2024-08-13)
 -------------------
-- Add support for Python 3.12 and 3.13
-- Drop support for Python 3.7
-- Setup (dependencies) update.
+- Added support for Python 3.12 and 3.13
+- Dropped support for Python 3.7
+- Setup update (mainly dependencies).
 
 1.0.19 (2022-10-18)
 -------------------
-- Tox configuration has been moved to pyproject.toml
+- The tox configuration has been moved to pyproject.toml
 
 1.0.18 (2022-08-22)
 -------------------
@@ -76,12 +86,12 @@ Changelog
 
 1.0.17 (2022-07-24)
 -------------------
-- Add support for Python 3.10 and 3.11
+- Added support for Python 3.10 and 3.11
 - Setup update (currently based mainly on pyproject.toml).
 
 1.0.16 (2022-01-10)
 -------------------
-- Drop support for Python 2, 3.5 and 3.6
+- Dropped support for Python 2, 3.5 and 3.6
 - Copyright year update.
 - Setup update.
 
@@ -98,7 +108,7 @@ Changelog
 
 1.0.7 (2018-11-08)
 ------------------
-- Drop support for Python 2.6 and 3.0-3.3
+- Dropped support for Python 2.6 and 3.0-3.3
 - Update required setuptools version.
 
 1.0.6 (2018-05-08)
